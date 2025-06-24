@@ -3,4 +3,6 @@ Building a modern data warehouse leveraging SQL Server, this project focuses on 
 
 ## Data Architecture
 
+![SQL_server_architecture](https://github.com/user-attachments/assets/7a732b84-68b9-49f3-86a9-5e40d43e014a)
+
 

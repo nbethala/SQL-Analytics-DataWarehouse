@@ -9,7 +9,7 @@ This project establishes a modern data warehouse on SQL Server, architected usin
 
 
 
-Bronze Layer: The Bronze layer captures raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+{Bronze Layer:} The Bronze layer captures raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 
 Silver Layer: The Silver layer applies robust ETL transformations, standardizing and cleaning the data into analytical models.
 

@@ -96,28 +96,23 @@ data-warehouse-project/
 ├── LICENSE                             # Project licensing details
 ├── .gitignore                          # Ignore config and metadata files
 
----
 
+---
 
 ### **Project Outcomes**
 Clear separation of ETL logic: Bronze (raw), Silver (cleansed), Gold (curated)
-
 SQL-based data quality validation and analytical logic
-
 Fully Dockerized local development setup
-
 Modular ETL scripts reusable across datasets and sources
-
 BI-ready outputs for reporting and forecasting initiatives
+
+---
 
 ### **Future Enhancements**
 
 Integrate task orchestration with Apache Airflow
-
 Expand analytics coverage to additional business domains
-
 Automate data catalog updates and field-level documentation
-
 Optimize for real-time ingestion and near real-time reporting
 
 

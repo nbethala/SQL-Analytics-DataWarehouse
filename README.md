@@ -46,24 +46,23 @@ This project establishes a modern data warehouse on SQL Server, architected usin
 
 **Gold Layer:** The Gold layer delivers curated, business-ready datasets optimized for reporting, dashboarding, and advanced analytics.
 
----
-
-### **Data Flow**
 
 ![Data_Flow](https://github.com/user-attachments/assets/0f8dcebb-10bc-447a-9a63-6161d14e8289)
 
+
 ---
 
-### **Technologies **
-SQL (T-SQL) – Core language for data modeling, transformation, validation, and analytics
+### **Technologies**
 
-SQL Server – Relational database platform for data storage and warehousing
+- **SQL (T-SQL)** : Core language for data modeling, transformation, validation, and analytics
 
-Python – ETL scripting using pandas, pyodbc, and custom workflow orchestration
+- **SQL Server**  : Relational database platform for data storage and warehousing
 
-Docker – Containerization of SQL Server instances and ETL environments for portability
+- **Python**  : ETL scripting using pandas, pyodbc, and custom workflow orchestration
 
-Git – Version control for ETL scripts, SQL logic, and configuration files
+- **Docker** : Containerization of SQL Server instances and ETL environments for portability
+
+- **Git** : Version control for ETL scripts, SQL logic, and configuration files
 
 ---
 
@@ -95,23 +94,6 @@ data-warehouse-project/
 ├── .gitignore                          # Ignore config and metadata files
 
 
----
-
-### **Project Outcomes**
-Clear separation of ETL logic: Bronze (raw), Silver (cleansed), Gold (curated)
-SQL-based data quality validation and analytical logic
-Fully Dockerized local development setup
-Modular ETL scripts reusable across datasets and sources
-BI-ready outputs for reporting and forecasting initiatives
-
----
-
-### **Future Enhancements**
-
-Integrate task orchestration with Apache Airflow
-Expand analytics coverage to additional business domains
-Automate data catalog updates and field-level documentation
-Optimize for real-time ingestion and near real-time reporting
 
 
 

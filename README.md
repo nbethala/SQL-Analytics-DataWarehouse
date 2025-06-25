@@ -98,21 +98,26 @@ data-warehouse-project/
 ---
 
 ### **Project Outcomes**
-Unified and validated CRM/ERP data for faster business decisions
+Clear separation of ETL logic: Bronze (raw), Silver (cleansed), Gold (curated)
 
-Scalable, container-based development environment
+SQL-based data quality validation and analytical logic
 
-Reusable Python ETL and SQL analytics logic
+Fully Dockerized local development setup
 
-BI-ready insights driving targeted business action
+Modular ETL scripts reusable across datasets and sources
+
+BI-ready outputs for reporting and forecasting initiatives
 
 ### **Future Enhancements**
 
-Integrate orchestration tools like Apache Airflow
+Integrate task orchestration with Apache Airflow
 
-Expand to support additional data sources (e.g. APIs, flat files)
+Expand analytics coverage to additional business domains
 
-Enhance metadata documentation and data quality logging
+Automate data catalog updates and field-level documentation
+
+Optimize for real-time ingestion and near real-time reporting
+
 
 
 

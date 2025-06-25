@@ -69,6 +69,7 @@ Git – Version control for ETL scripts, SQL logic, and configuration files
 
 ---
 
+
 ## 📁 Repository Structure
 
 ```plaintext
@@ -96,6 +97,7 @@ data-warehouse-project/
 ├── .gitignore                          # Ignore config and metadata files
 
 ---
+
 
 ### **Project Outcomes**
 Clear separation of ETL logic: Bronze (raw), Silver (cleansed), Gold (curated)

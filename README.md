@@ -19,6 +19,7 @@ This project builds a modern data warehouse powered by SQL Server, Python-driven
 ---
 
 ## 📊 BI: Analytics & Reporting (Data Analysis)
+The insights are derived from curated Gold layer datasets and are optimized for visualization in BI tools such as Power BI or Tableau. 
 
 **Objective:**  
 Develop SQL-based analytics to deliver detailed insights into:
@@ -27,7 +28,11 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Product Performance:** Measure usage patterns, feature adoption, and support metrics  
 - **Sales Trends:** Analyze revenue drivers, seasonal performance, and regional breakdowns
 
-These insights are derived from curated Gold layer datasets and are optimized for visualization in BI tools such as Power BI or Tableau. 
+The analytics layer relies on this star schema model to support fast querying and reporting:
+
+
+![Data_Model_Star_Schema](https://github.com/user-attachments/assets/681e498d-3506-4cac-ac06-5b9c9b29b05b)
+
 
 ---
 
@@ -45,6 +50,7 @@ This project establishes a modern data warehouse on SQL Server, architected usin
 **Silver Layer:** The Silver layer applies robust ETL transformations, standardizing and cleaning the data into analytical models.
 
 **Gold Layer:** The Gold layer delivers curated, business-ready datasets optimized for reporting, dashboarding, and advanced analytics.
+
 
 
 ![Data_Flow](https://github.com/user-attachments/assets/0f8dcebb-10bc-447a-9a63-6161d14e8289)
@@ -69,7 +75,7 @@ This project establishes a modern data warehouse on SQL Server, architected usin
 
 ## 📁 Repository Structure
 
-```plaintext
+```
 data-warehouse-project/
 │
 ├── Datasets/                           # Raw datasets used for the project (ERP and CRM data)
@@ -92,7 +98,27 @@ data-warehouse-project/
 ├── README.md                           # This file
 ├── LICENSE                             # Project licensing details
 ├── .gitignore                          # Ignore config and metadata files
+└── requirements.txt                    # Python dependencies for project setup 
+```
 
+
+---
+
+
+### **Project Outcomes**
+- Clear separation of ETL logic: Bronze (raw), Silver (cleansed), Gold (curated)
+- SQL-based data quality validation and analytical logic
+- Fully Dockerized local development setup
+- Modular ETL scripts reusable across datasets and sources
+- BI-ready outputs for reporting and forecasting initiatives
+
+
+### **Future Enhancements**
+
+- Integrate task orchestration with Apache Airflow
+- Expand analytics coverage to additional business domains
+- Automate data catalog updates and field-level documentation
+- Optimize for real-time ingestion and near real-time reporting
 
 
 

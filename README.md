@@ -1,4 +1,4 @@
-# Data Warehouse(SQL Server): ETL, Modeling & Analytics
+# 🚀 Data Warehouse(SQL Server): ETL, Modeling & Analytics
 Building a modern data warehouse leveraging SQL Server, this project focuses on designing and implementing robust ETL processes, developing efficient data models, and establishing a scalable analytics framework. The initiative aims to centralize disparate data sources, ensure high data quality, and enable real-time insights through streamlined reporting and visualization. By integrating best practices in data engineering, the solution empowers stakeholders with reliable, actionable intelligence to support strategic decision-making and long-term data governance.
 
 ## Data Architecture
@@ -9,11 +9,11 @@ This project establishes a modern data warehouse on SQL Server, architected usin
 
 
 
-{Bronze Layer:} The Bronze layer captures raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+**Bronze Layer:** The Bronze layer captures raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 
-Silver Layer: The Silver layer applies robust ETL transformations, standardizing and cleaning the data into analytical models.
+**Silver Layer:** The Silver layer applies robust ETL transformations, standardizing and cleaning the data into analytical models.
 
-Gold Layer: The Gold layer delivers curated, business-ready datasets optimized for reporting, dashboarding, and advanced analytics.
+**Gold Layer:** The Gold layer delivers curated, business-ready datasets optimized for reporting, dashboarding, and advanced analytics.
 
 
 

@@ -67,30 +67,33 @@ Docker – Containerization of SQL Server instances and ETL environments for por
 
 Git – Version control for ETL scripts, SQL logic, and configuration files
 
-### **Directory Structure**
+---
 
+## 📁 Repository Structure
+
+```plaintext
 data-warehouse-project/
 │
 ├── Datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── Architecture_Maps/                  # Project documentation and architecture details
-│   ├── Data_Integration_Model          # Draw.io file shows all different techniquies and methods of ETL
-│   ├── SQL_Server_Architecture         # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── Data_Flow.drawio                # Draw.io file for the data flow diagram
-│   ├── Data_Model.drawio               # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   ├── Data_Integration_Model.drawio   # ETL techniques and integration methods
+│   ├── SQL_Server_Architecture.drawio  # System architecture overview
+│   ├── data_catalog.md                 # Dataset metadata and field descriptions
+│   ├── Data_Flow.drawio                # End-to-end data flow
+│   ├── Data_Model.drawio               # Logical and physical star schema
+│   ├── naming-conventions.md           # Naming guidelines for consistent development
 │
 ├── scripts/                            # SQL/Python scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+│   ├── bronze/                         # Load raw data into Bronze layer
+│   ├── silver/                         # Data cleansing and validation scripts
+│   ├── gold/                           # Scripts for business logic and data modeling
 │
-├── QA_scripts/                         # Test scripts and quality files
+├── QA_scripts/                         # Automated tests and data quality checks
 │
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
+├── README.md                           # This file
+├── LICENSE                             # Project licensing details
+├── .gitignore                          # Ignore config and metadata files
 
 ---
 

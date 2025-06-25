@@ -2,11 +2,11 @@
 
 A scalable, containerized data platform using SQL Server, Python, and Docker, architected with Medallion principles to enable high-quality analytics and robust data governance.
 
+---
 ##  Project Overview
 
 This project builds a modern data warehouse powered by SQL Server, Python-driven ETL pipelines, and Docker containers. Designed around the Medallion Architecture, data flows seamlessly from raw ingestion (Bronze) through transformation (Silver) to business-ready insights (Gold). The system automates multi-source integration from key systems like CRM and ERP.
 
----
 
 ##  Objectives
 
@@ -15,8 +15,6 @@ This project builds a modern data warehouse powered by SQL Server, Python-driven
 - Structure data via Medallion layers (Bronze, Silver, Gold)
 - Use Docker to ensure consistent, replicable development environments
 - Deliver clean, analytics-ready datasets to downstream tools
-
----
 
 ---
 
